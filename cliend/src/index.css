@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-primary: #2563EB;
+  --color-primary: #2563EB;
+  --color-primary-dull : #2060EB;
+  --font-secondary: #fbbf24;
+  --font-tertiary: 'Open Sans', sans-serif;
+  --font-quaternary: 'Urbanist', sans-serif;
+}
+
+
+* {
+ font-family: Outfit;
+}
+
+.font-playfair {
+ font-family: Playfair !important
+}
