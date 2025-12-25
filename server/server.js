@@ -20,6 +20,7 @@ app.use("/api/clerk", clerkwebhooks);
 
 
 app.get('/', (req, res) => res.send("API is working"))
+// app.use('/api/user', userRouter);
 
 const PORT = process.env.PORT || 3000;
 
